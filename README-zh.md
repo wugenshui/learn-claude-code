@@ -1,7 +1,5 @@
 # Learn Claude Code -- 真正的 Agent Harness 工程
 
-[English](./README.md) | [中文](./README-zh.md) | [日本語](./README-ja.md)
-
 ## Agency 来自模型，Agent 产品 = 模型 + Harness
 
 在讨论代码之前，先把一件事说清楚。
@@ -237,7 +235,7 @@ def agent_loop(messages):
 本仓库现在同时保留两条教程线：
 
 - **新版主线：根目录 `s01-s17`**
-  根目录下的 `s01_*` 到 `s17_*` 是新的主版本，也是当前推荐阅读路径。每章包含默认英文 README、中文/日文译本、可运行的 `code.py`，以及必要的图示。
+  根目录下的 `s01_*` 到 `s17_*` 是新的主版本，也是当前推荐阅读路径。每章包含中文 README、可运行的 `code.py`，以及必要的图示。
 - **旧版过渡：`docs/`、`agents/`**
   这些仍保留旧 12 章体系，暂时用于已有读者和旧链接过渡。
 
@@ -381,14 +379,12 @@ flowchart TD
 
 ```
 s08_context_compact/
-  README.md              # 英文，默认章节 README
-  README.zh.md           # 中文译本
-  README.ja.md           # 日文译本
+  README.zh.md           # 章节说明
   code.py                # 独立可运行的实现
   images/                # SVG 图示（需要时）
 ```
 
-阅读 `README.md` 理解核心思想，并逐步学习代码。复杂章节使用 `<details>` 折叠深入内容 -- 想深入时再展开。简单章节有 0-1 张图，复杂章节会有更多。
+阅读 `README.zh.md` 理解核心思想，并逐步学习代码。复杂章节使用 `<details>` 折叠深入内容 -- 想深入时再展开。简单章节有 0-1 张图，复杂章节会有更多。
 
 按顺序从 s01 读到 s17。有些机制直接建立在前一章的运行时之上；独立机制章节会说明它们使用的是哪个较早版本的内核。
 
@@ -399,9 +395,7 @@ s08_context_compact/
 ```
 learn-claude-code/
   s01_agent_loop/          # 每章一个文件夹
-    README.md              #   默认英文文档（完整叙事）
-    README.zh.md           #   中文译本
-    README.ja.md           #   日文译本
+    README.zh.md           #   章节说明
     code.py                #   独立可运行代码
     images/                #   SVG 流程图
   s02_tool_use/

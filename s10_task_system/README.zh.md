@@ -1,7 +1,5 @@
 # s10: Task System — 从执行清单到可协调的任务状态
 
-[English](README.md) · [中文](README.zh.md) · [日本語](README.ja.md)
-
 s01 → ... → s08 → s09 → `s10` → [s11](../s11_background_tasks/) → s12 → ... → s16 → s17
 
 > *"大目标拆成小任务, 排好序, 持久化"* — 文件持久化的任务图, 多 agent 协作的基础。

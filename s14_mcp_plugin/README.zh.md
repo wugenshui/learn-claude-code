@@ -1,7 +1,5 @@
 # s14: MCP Tools — 发现并调用外部工具
 
-[English](README.md) · [中文](README.zh.md) · [日本語](README.ja.md)
-
 [s04](../s04_hooks/) → `s14` → [s15](../s15_integrated_harness/) → s16 → s17
 
 > **Harness 层**：MCP Tools — 连接服务、发现工具，并把它们加入 Agent 的工具循环。

@@ -1,7 +1,5 @@
 # s16: Workflow Runtime — 模型决定单步，脚本决定编排
 
-[English](README.md) · [中文](README.zh.md) · [日本語](README.ja.md)
-
 s01 → ... → s14 → [s15](../s15_integrated_harness/) → `s16` → [s17](../s17_goal_loop/)
 
 > *"一次 tool_use，跑完一整套编排"* — `Workflow` 工具启动一个可恢复的脚本运行时，协调多次 agent 调用。

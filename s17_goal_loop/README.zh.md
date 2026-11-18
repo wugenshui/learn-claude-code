@@ -1,7 +1,5 @@
 # s17: Goal Loop：模型提出停止，独立判断器决定是否继续
 
-[English](README.md) · [中文](README.zh.md) · [日本語](README.ja.md)
-
 s01 → ... → s15 → [s16](../s16_workflow_runtime/) → `s17`
 
 > *“模型不再调用工具，只代表这一轮想停；目标是否完成，再交给一个独立判断器。”*

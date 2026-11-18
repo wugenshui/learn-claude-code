@@ -1,7 +1,5 @@
 # s13: Agent Teams — 团队运行时与协作协议
 
-[English](README.md) · [中文](README.zh.md) · [日本語](README.ja.md)
-
 s01 → ... → [s10](../s10_task_system/) → `s13` → [s14](../s14_mcp_plugin/) → s15 → s16 → s17
 
 > *“一个 Agent 装不下整项工作时，就让队友分头完成。”* — 持久队友、共享任务认领、可选 worktree 与协作协议。

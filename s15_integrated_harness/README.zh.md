@@ -1,7 +1,5 @@
 # s15: Agent Harness 集成 — 多种机制，一个循环
 
-[English](README.md) · [中文](README.zh.md) · [日本語](README.ja.md)
-
 s01 → ... → s13 → [s14](../s14_mcp_plugin/) → `s15` → [s16](../s16_workflow_runtime/) → s17
 
 > *"多种机制，一个循环"* — 工具、权限、记忆、任务、团队、插件都挂在同一个 while True 上。

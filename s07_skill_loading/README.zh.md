@@ -1,7 +1,5 @@
 # s07: Skill Loading — 用到时再加载
 
-[English](README.md) · [中文](README.zh.md) · [日本語](README.ja.md)
-
 s01 → s02 → s03 → s04 → s05 → s06 → `s07` → [s08](../s08_context_compact/) → s09 → ... → s16 → s17
 
 > system prompt 保存技能目录；`load_skill` 返回完整的 `SKILL.md`。
