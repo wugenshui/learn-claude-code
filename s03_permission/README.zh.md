@@ -144,12 +144,12 @@ cd learn-claude-code
 python s03_permission/code.py
 ```
 
-试试这些 prompt：
+试试这些提示：
 
-1. `Create a file called test.txt in the current directory`（应该直接通过）
-2. `Delete the file test.txt`（bash + rm 会触发闸门 2）
-3. `What files are in the current directory?`（只读，全部通过）
-4. `Try to write a file to /etc/something`（写工作区外，触发闸门 2）
+1. `在当前目录创建一个名为 test.txt 的文件`（应该直接通过）
+2. `删除文件 test.txt`（bash + rm 会触发闸门 2）
+3. `当前目录里有哪些文件？`（只读，全部通过）
+4. `试着往 /etc/something 写一个文件`（写工作区外，触发闸门 2）
 5. 在 Windows 上，`del test.txt` 和 `DEL test.txt` 会触发闸门 2，而 `model`、`delimiter` 和 `echo del test.txt` 不会。
 
 观察重点：哪些操作直接通过？哪些需要你确认？哪些被直接拒绝？

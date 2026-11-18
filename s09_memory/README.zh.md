@@ -175,10 +175,10 @@ cd learn-claude-code
 python s09_memory/code.py
 ```
 
-1. 输入 `I prefer using tabs for indentation. Remember that.`，结束后检查 `.memory/` 是否新增记忆文件，`MEMORY.md` 是否出现对应索引；
-2. 输入 `q` 退出并重新运行程序，再问 `What indentation style do I prefer?`，确认新会话能够召回这条偏好；
+1. 输入 `我写代码时偏好用 tab 缩进。请记住这一点。`，结束后检查 `.memory/` 是否新增记忆文件，`MEMORY.md` 是否出现对应索引；
+2. 输入 `q` 退出并重新运行程序，再问 `我偏好什么样的缩进风格？`，确认新会话能够召回这条偏好；
 3. 再保存一条与代码格式无关的偏好，然后询问缩进问题，观察当前请求只加载相关记忆；
-4. 输入 `Do not create files in this session.`，确认这条临时要求不会成为下一次会话的持久规则。
+4. 输入 `这次会话里不要创建文件。`，确认这条临时要求不会成为下一次会话的持久规则。
 
 模型的具体措辞和提取数量可能变化，判断重点是 `.memory/` 中保存了什么，以及新会话是否只取回相关内容。
 

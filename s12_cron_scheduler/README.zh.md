@@ -134,9 +134,9 @@ python s12_cron_scheduler/code.py
 
 可以依次输入：
 
-1. `Schedule "run date" every 2 minutes and keep it after restart.`
-2. `List all cron jobs.`
-3. `Cancel the cron job you just created.`
+1. `每 2 分钟执行一次 "run date"，重启后仍然保留。`
+2. `列出所有 cron 任务。`
+3. `取消你刚刚创建的 cron 任务。`
 
 运行时可以查看 `.scheduled_tasks.json`，并观察到期后出现的 `[Scheduled] run date` 消息。测试一分钟级任务时，Agent 进程需要保持运行。
 

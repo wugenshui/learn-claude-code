@@ -149,12 +149,12 @@ cd learn-claude-code
 python s02_tool_use/code.py
 ```
 
-试试这些 prompt：
+试试这些提示：
 
-1. `Read the file README.md and tell me what this project is about`
-2. `Create a file called test.py that prints "hello", then read it back`
-3. `Find all Python files in this directory`
-4. `Read both README.md and requirements.txt, then create a summary file`
+1. `读取 README.md，告诉我这个项目是做什么的`
+2. `创建一个名为 test.py 的文件，让它打印 "hello"，然后再把文件读出来`
+3. `找出这个目录下所有 Python 文件`
+4. `同时读取 README.md 和 requirements.txt，然后写一份摘要文件`
 
 观察重点：模型什么时候只调一个工具，什么时候一次调多个？多个工具调用的顺序和结果是否正确？
 

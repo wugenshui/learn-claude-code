@@ -93,11 +93,11 @@ cd learn-claude-code
 python s06_subagent/code.py
 ```
 
-试试这些 prompt：
+试试这些提示：
 
-1. `Use a subtask to find what testing framework this project uses`（子 Agent 去读文件，主 Agent 只收结论）
-2. `Delegate: read all .py files in agents/ and summarize what each one does`
-3. `Use a task to create s06_subagent/example/string_tools.py with a slugify(text: str) function, then verify it from the parent agent`
+1. `用子任务查出这个项目用的是什么测试框架`（子 Agent 去读文件，主 Agent 只收结论）
+2. `委派任务：读取 agents/ 下所有 .py 文件，并总结每个文件在做什么`
+3. `用 task 创建 s06_subagent/example/string_tools.py，其中包含 slugify(text: str) 函数，再由父 Agent 验证`
 
 观察重点：是否出现 `[Subagent started]` / `[Subagent done]`？子 Agent 的工具调用是否以 `[sub] ...` 输出？父 Agent 是否只接收到 `task` 返回的最终文本？
 

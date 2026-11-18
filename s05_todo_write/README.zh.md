@@ -127,11 +127,11 @@ cd learn-claude-code
 python s05_todo_write/code.py
 ```
 
-试试这些 prompt：
+试试这些提示：
 
-1. `Refactor s05_todo_write/example/hello.py: add type hints, docstrings, and a main guard`（先列 3 步再执行）
-2. `Create a Python package under s05_todo_write/example/demo_pkg with __init__.py, utils.py, and tests/test_utils.py`
-3. `Review Python files under s05_todo_write/example and fix any style issues`
+1. `重构 s05_todo_write/example/hello.py：加上类型注解、文档字符串和 main 入口保护`（先列 3 步再执行）
+2. `在 s05_todo_write/example/demo_pkg 下创建一个 Python 包，包含 __init__.py、utils.py 和 tests/test_utils.py`
+3. `检查 s05_todo_write/example 下的 Python 文件，并修正风格问题`
 
 观察重点：第一次工具调用是不是 `todo_write`？TODO 列了几步？执行过程中状态有没有从 `pending` 变成 `in_progress` / `completed`？
 

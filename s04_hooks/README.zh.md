@@ -202,11 +202,11 @@ cd learn-claude-code
 python s04_hooks/code.py
 ```
 
-试试这些 prompt：
+试试这些提示：
 
-1. `Read the file README.md`（应该直接通过，观察 hook 日志）
-2. `Create a file called test.txt`（通过后观察 PostToolUse 是否触发）
-3. `Delete all temporary files in /tmp`（bash + rm 触发权限 hook）
+1. `读取文件 README.md`（应该直接通过，观察 hook 日志）
+2. `创建一个名为 test.txt 的文件`（通过后观察 PostToolUse 是否触发）
+3. `删除 /tmp 下所有临时文件`（bash + rm 触发权限 hook）
 
 观察重点：每次工具执行前，是否出现了 `[HOOK]` 日志？权限被拒时，是 hook 拦截的还是循环里硬编码的？
 

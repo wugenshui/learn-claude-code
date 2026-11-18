@@ -129,11 +129,11 @@ cd learn-claude-code
 python s07_skill_loading/code.py
 ```
 
-试试这些 prompt：
+试试这些提示：
 
-1. `What skills are available?`
-2. `Load the code-review skill and follow its instructions`
-3. `Review README.md and load the relevant skill first`
+1. `有哪些可用的技能？`
+2. `加载 code-review 技能，并按它的说明执行`
+3. `审阅 README.md，并先加载相关技能`
 
 观察 system prompt 中是否只有技能目录，以及调用 `load_skill` 后是否出现完整的 `SKILL.md` 内容。
 

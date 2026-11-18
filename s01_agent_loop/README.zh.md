@@ -133,11 +133,11 @@ cp .env.example .env
 python s01_agent_loop/code.py
 ```
 
-试试这些 prompt：
+试试这些提示：
 
-1. `Create a file called hello.py that prints "Hello, World!"`
-2. `List all Python files in this directory`
-3. `What is the current git branch?`
+1. `创建一个名为 hello.py 的文件，让它打印 "Hello, World!"`
+2. `列出这个目录下所有 Python 文件`
+3. `当前 git 分支是什么？`
 
 观察重点：模型什么时候调用工具（循环继续），什么时候不调用（循环结束）？
 

@@ -156,11 +156,11 @@ cd learn-claude-code
 python s11_background_tasks/code.py
 ```
 
-试试这些 prompt：
+试试这些提示：
 
-1. `Run pip list in the background and find all Python files in this directory`
-2. `Run npm install (use run_in_background) and while waiting, read package.json`
-3. `Run a short sleep in the background, then list all Markdown files`
+1. `在后台运行 pip list，并找出这个目录下所有 Python 文件`
+2. `运行 npm install（使用 run_in_background），等待期间读取 package.json`
+3. `在后台跑一个短暂的 sleep，然后列出所有 Markdown 文件`
 
 观察重点：显式设置 `run_in_background` 后，命令有没有被送到后台？`bg_id` 是否返回？后续轮次有没有以 `<task_notification>` 格式收集完成结果？
 

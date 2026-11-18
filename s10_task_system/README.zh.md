@@ -203,12 +203,12 @@ cd learn-claude-code
 python s10_task_system/code.py
 ```
 
-试试这些 prompt：
+试试这些提示：
 
-1. `Create tasks: setup database schema, create API endpoints (depends on schema), write tests (depends on endpoints), write docs (depends on schema)`
-2. `List all tasks and their statuses`
-3. `Claim the first unblocked task and complete it`
-4. `List tasks again — which ones are now unblocked?`
+1. `创建这些任务：搭建数据库 schema、创建 API 端点（依赖 schema）、编写测试（依赖端点）、编写文档（依赖 schema）`
+2. `列出所有任务及其状态`
+3. `认领第一个未阻塞的任务并完成它`
+4. `再次列出任务，现在哪些已经解锁了？`
 
 观察重点：`.tasks/` 目录下是否生成了 JSON 文件？完成任务后，被阻塞的任务是否解锁？
 
